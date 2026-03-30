@@ -29,7 +29,7 @@ function App() {
     <div className="min-h-screen w-full overflow-x-hidden ">
       <Navbar setPage={P_page} />
 
-      <main className="pt-24 px-5">{renderPage()} </main>
+      <main className="pt-20  lg:pt-40">{renderPage()} </main>
     </div>
   );
 }

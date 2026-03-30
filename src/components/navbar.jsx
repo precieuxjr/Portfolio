@@ -10,11 +10,12 @@ function Navbar({setPage}) {
 
   return (
 <nav className="w-full fixed top-0 z-50 bg-arrière_plan/90 backdrop-blur-sm ">
-      <div className="max-w-7xl mx-auto px-5 flex flex-row items-center justify-between h-20 md:  ml-25 mr-25">
+      <div className="max-w-7xl mx-auto px-5 flex flex-row items-center justify-between h-20">
         
         {/* LOGO */}
-        <section className="text-xl font-en_tete font-semibold text-[#8cb5e3]">
-          Precieux.
+        <section className="  m-1 flex flex-row items-center text-xl font-en_tete font-semibold text-[#8cb5e3]">
+          <img src="/src/assets/Blue and Purple Modern Technology Logo.png" alt="" className=' w-auto h-13' />
+          <p className='hidden min-[209px]:block '>Precieux.</p>
         </section>
 
         {/* 2. MENU ORDINATEUR (Caché sur mobile via 'hidden md:flex') */}
